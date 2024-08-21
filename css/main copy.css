@@ -1,0 +1,204 @@
+@charset "utf-8";
+
+* {margin:0;padding:0;}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* 칸 띄우기 */
+.br {
+    width: 1600px;
+    height: 50px;
+    background-color: white;
+}
+
+
+/* 슬라이더 */
+
+#slider {
+    max-width:1600px;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.slidelist {
+    width: 5800px;
+}
+
+.slidelist > li {
+    float: left;
+    width: 1600px;
+}
+
+.slidelist > li > a > img {
+    width:100%;
+}
+
+#slider > span {
+    position: absolute; 
+    top:50%; 
+    display: block;
+    font-size: 38px;
+    color:#fff;
+    line-height: 40px; 
+    background: rgba(0,0,0,0.6); 
+    cursor: pointer; 
+    height: 50px; 
+    transform: translateY(-50%);
+}
+
+#slider > span:hover {
+    background: rgba(255,255,255,0.8); 
+    color:#000;
+}
+
+.prev {
+    left:0; 
+    border-radius: 0 10px 10px 0px; 
+    padding:10px;
+}
+
+.next {
+    right:0;
+    border-radius: 10px 0px 0px 10px; 
+    padding:10px;
+}
+
+
+/* 카테고리 */
+#category {
+    width: 1600px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+#category > h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#category > article {
+    width: 130px;
+    height: 130px;
+    margin: 40px 0 0 27px;
+    float: left;
+}
+
+#category > article > a > .imgbox {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    text-decoration: none;
+    filter: brightness(1); 
+    transition: all 0.5s ease;
+}
+
+#category > article > a> .imgbox:hover {
+    filter: brightness(0.5);
+}
+
+
+#category > article > a > h3 {
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+#category > article > a > h3:hover {
+    color: green;
+}
+
+
+section {
+    width: 1600px;
+    height: 2000px;
+    margin: 0 auto;
+}
+
+section > div {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+section > h1 {
+    text-align: center;
+    font-family: "맑은 고딕";
+    font-size: 50px;
+}
+
+section > div > article {
+    float: left;
+    width: 250px;
+    height: 350px;
+    margin: 0 30px;
+}
+
+section > div > article > a >.imgbox2 {
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+section > div > article > a > h6 {
+    font-family: "맑은 고딕";
+    font-size: 13px;
+}
+
+section > div > article > p {
+    font-family: "맑은 고딕";
+    font-size: 12px;
+}
+
+section > div > article > p > del {
+    font-family: "맑은 고딕";
+    font-size: 11px;
+}
+
+section > div > article > a {
+    text-decoration: none;
+    color: black;
+}
+
+#season {
+    width: 1200px;
+    height: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#season > h1 {
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+#season > .box {
+    width: 18%;
+    height: 25%;
+    margin: 10px;
+}
+
+#season > .box > a > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}

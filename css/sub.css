@@ -1,0 +1,390 @@
+@charset "utf-8";
+
+* {margin:0;padding:0;}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* 칸 띄우기 */
+.br {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+
+body {
+    padding-top: 150px;
+}
+
+#section {
+    width: 1600px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+#section > #one {
+    width: 1200px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+#section > #one > a {
+    text-decoration: none;
+    color:gray;
+}
+
+#section > #two {
+    width: 1200px;
+    height: 900px;
+    margin: 0 auto;
+}
+
+#section > #two > #left {
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+
+#section > #two > #left > img {
+    width: 100%;
+    height: 100%;
+}
+
+#section > #two > #right {
+    width: 600px;
+    height: 900px;
+    float: right;
+}
+
+#section > #two > #right > #info {
+    height: 170px;
+    font-family: "맑은 고딕";
+    font-weight: bold;
+    border-top: 3px solid black;
+}
+
+#section > #two > #right > #info > h3 {
+    font-size: 30px;
+    padding: 30px 0 0 0px;
+}
+
+#section > #two > #right > #info > #price {
+    font-size: 30px;
+    margin: 20px 0 0 0px;
+}
+
+#section > #two > #right > #info > #price > p > del {
+    font-size: 25px;
+}
+
+#section > #two > #right > #info > #price > p > span {
+    font-size: 30px;
+    color: red;
+}
+
+#section > #two > #right > #info2 {
+    width: 100%;
+    height: 230px;
+    padding: 30px 0 0 0px;
+    border-top: 1px solid gray;
+}
+
+table {
+    width: 100%;
+    border: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.tb-left {
+    text-align: left;
+    height: 45px;
+}
+
+.tb-left > p {
+    color: gray;
+    font-size: 12px;
+}
+
+tbody {
+    font-family: "맑은 고딕";
+}
+
+/* Dropdown Button */
+.dropbtn {
+    width: 600px;
+    background-color: #e8e8e8;
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+}
+
+.dropbtn > span {
+    color: red;
+}
+
+  /* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+  /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 600px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.dropdown:hover .dropbtn {background-color: lightgray;}
+
+#size {
+    width: 100%;
+    height: 85px;
+    border-top: 1px solid gray;
+    border-bottom: 2px solid black;
+}
+
+#size > h3 {
+    margin: 10px 0 0 0px;
+}
+
+.dropbtn1 {
+    width: 500px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid black;
+}
+
+
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+}
+
+  /* Dropdown Content (Hidden by Default) */
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 500px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+  /* Links inside the dropdown */
+.dropdown-content1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+  /* Change color of dropdown links on hover */
+.dropdown-content1 a:hover {color: white;}
+.dropdown-content1 a:hover {background-color: blue;}
+
+  /* Show the dropdown menu on hover */
+.dropdown1:hover .dropdown-content1 {display: block;}
+
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown1:hover .dropbtn1 {background-color: white}
+
+#price1 {
+    width: 100%;
+    text-align: right;
+    height: 40px;
+}
+
+#price1 > p {
+    color: black;
+    padding: 10px 0 0 0px;
+    font-size: 17px;
+}
+
+#price1 > p > span {
+    color: red;
+    font-size: 20px;
+}
+
+.but {
+    background-color: #e8e8e8;
+    width: 100%;
+    height: 60px;
+}
+
+.but > a > button {
+    font-family: "맑은 고딕";
+    color: gray;
+    float: left;
+    width: 50%;
+    height: 100%;
+    font-size: 18px;
+}
+
+.but1 {
+    border-color: black;
+    background-color: black;
+}
+
+#pay {
+    width: 100%;
+    height: 80px;
+    margin: 15px 0 0 0px;
+}
+
+
+#pay > .pay-img {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+#pay > .pay-img > a > img {
+    width: 100%;
+    height: 100%;
+}
+
+#move {
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+#move > .move-but {
+    float: left;
+    width: 20%;
+    height: 100%;
+    }
+
+#section > #move > .move-but > a > button {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+}
+
+#section > #three {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#section > #three > img {
+    width: 100%;
+    margin: 20px 0 0 0px;
+}
+
+#section > #four {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#section > #four > img {
+    width: 100%;
+    margin: 20px 0 0 0px;
+}
+
+#section > .five {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#section > .five > img {
+    width: 100%;
+    margin: 20px 0 0 0px;
+}
+
+#section > #six {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#section > #six > img {
+    width: 100%;
+    margin: 20px 0 0 0px;
+}
+
+#section > #seven {
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#section > #seven > img {
+    width: 100%;
+    margin: 20px 0 20px 0px;
+    font-family: "맑은 고딕";
+}
+
+#section > #review {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#section > #review > img {
+    width: 100%;
+    margin: 20px 0 0 0px;
+}
+
+#section > #QA {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#section > #QA > img {
+    width: 100%;
+    margin: 20px 0 0 0px;
+}
+
+#section > #delivery {
+    width: 1200px;
+    height: auto;
+    font-family: "맑은 고딕";
+    margin: 0 auto;
+}
+
+#section > #delivery > h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#section > #delivery > p {
+    font-size: 15px;
+}
+
+#section > #delivery > p > span {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#section > #delivery > p > .small{
+    font-size: 13px;
+    color: grey;
+}

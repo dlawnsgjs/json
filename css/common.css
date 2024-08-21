@@ -1,0 +1,361 @@
+@charset "utf-8";
+
+* {margin:0;padding:0;}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* 칸 띄우기 */
+.br {
+    width: 1600px;
+    height: 50px;
+    background-color: white;
+}
+
+
+
+
+
+/* header */
+#header {
+    width: 1600px;
+    height: 120px;
+    margin: 0 auto;
+    background-color: black;
+    border-radius: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+
+
+
+ /* 로고 */
+#logo {
+    width: 130px;
+    height: 90px;
+    float: left;
+    margin: 15px 0 0 40px;
+    }
+
+#logo > a >img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+
+
+
+/* 로그인 */
+#login {
+    width: 300px;
+    height: 40px;
+    float: right;
+    font-size: 13px;
+    font-family: "맑은 고딕";
+    text-align: center;
+    margin: 10px 0 0 0px;
+}
+
+#login > span {
+    padding: 10px;
+    font-weight: bold;
+}
+
+#login > span > a {
+    text-decoration: none;
+    color: white
+}
+
+#login > span > a:hover {
+    text-decoration: none;
+    color: green;
+}
+
+
+
+
+
+/* 네비게이션 바 */
+nav {
+    float: right;
+    width: 1300px;
+    height: 30px;
+    margin: 25px 0 0 0px;
+    position: relative;
+    z-index: 100;
+}
+
+nav > ul {
+    font-family: "맑은 고딕";
+    font-weight: bold;
+}
+
+nav > ul > li {
+    float: left;
+    padding: 0  30px;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+nav > ul > li:hover > a {
+    text-decoration: none;
+    color: green;
+}
+
+
+
+/* 서브 메뉴 바 */
+.menu > .sub {
+    width: 1200px; 
+    height: auto;
+    background-color: #eee;
+    display: block;
+    float: left;
+    text-align: center;
+    z-index: 100;
+    display: none;
+    margin: 15px 0 0 0px;
+    border-radius: 20px;
+    font-family: "맑은 고딕";
+}
+
+.menu > .sub > li {
+    color: black;
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    margin: 10px 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu > .sub > li > ul {
+    float: left;
+    width: 200px;
+    text-align: center; 
+    margin-top: 15px;
+    border-top: 1px solid black;
+}
+
+.menu > .sub > li > ul > li {
+    margin: 10px 0px;
+    padding: 5px 0px;
+}
+
+.menu > .sub > li > ul > li > a {
+    background-color: #eee; 
+    text-transform: uppercase;
+    display: block;
+    color: gray;
+    font-size: 15px;
+    
+}
+
+.menu > .sub > li > ul > li:hover > a {
+    background-color: #000; 
+    color:#fff;
+}
+
+
+
+
+
+body {
+    padding-top: 150px;
+}
+
+
+
+/* footer */
+#footer {
+    width: 1600px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#footer > #user {
+    width: 100%;
+    height: 150px;
+    background-color: #e8e8e8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#footer > #user > .icon {
+    width: 200px;
+    height: 100px;
+    margin: 0 20px;
+    display: flex;
+}
+
+#footer > #user > .icon > h4 {
+    text-align: center;
+    margin: 0 0 0 30%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#footer > #user > .icon > p {
+    text-align: left;
+    font-family: "맑은 고딕";
+    font-size: 12px;
+    align-content: center;
+    margin: 0 0 0 5px;
+}
+
+#footer > #user > .icon > img {
+    float: left;
+    width: 40%;
+    height: 90%;
+    border-radius: 20%;
+}
+
+
+#footer > #user > #but {
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: 20px 0 0 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#footer > #user > #but > a {
+    text-decoration: none;
+    color: black;
+}
+
+#footer > #last {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    font-family: "맑은 고딕"    
+}
+
+#last > #one {
+    float: left;
+    width: 500px;
+    height: 50px;
+    margin: 10px 0 0 0px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    display: flex;
+}
+
+#last > #one > span {
+    margin: 0 25px;
+    text-align: center;
+    align-content: center;
+    font-size: 13px;
+    color: grey ;
+}
+
+#last > #one > span > a {
+    text-decoration: none;
+    color: gray;
+}
+
+#last > #two {
+    width: 750px;
+    height: 80px;
+    position: absolute;
+    top: 30%;
+    left: 10px;
+}
+
+#last > #two > p {
+    margin: 0 0 0 25px;
+    font-size: 13px;
+    color: #757272;
+}
+
+#last > #three {
+    width: 500px;
+    height: 50px;
+    position: absolute;
+    top: 65%;
+    left: 10px;
+}
+
+#last > #three > a > p {
+    text-decoration: none;
+    color: #757272;
+    margin: 0 0 0 25px;
+    font-size: 13px;
+}
+
+#last > #four {
+    float: right;
+    width: 300px;
+    height: 100px;
+    margin: 10px 10px 0 0px;
+}
+
+#last > #four > p {
+    font-size: 55px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#last > #five {
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    top: 15%;
+    left: 65%;
+}
+
+#last > #five > ul {
+    font-family: "맑은 고딕";
+    font-weight: bold;
+}
+
+#last > #five > ul > li {
+    font-size: 13px;
+    float: left;
+    padding: 0 30px;
+    margin: 10px;
+}
+
+#last > #five > ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+#last > #six {
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+}
+
+#last > #six > p {
+    float: right;
+    color: #757272;
+    font-size: 13px;
+}

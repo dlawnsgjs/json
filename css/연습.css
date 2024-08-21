@@ -1,0 +1,84 @@
+nav {
+    float: right;
+    width: 1300px;
+    height: 30px;
+    margin: 25px 0 0 0px;
+    position: relative;
+    z-index: 100;
+}
+
+nav > ul {
+    font-family: "맑은 고딕";
+    font-weight: bold;
+}
+
+nav > ul > li {
+    float: left;
+    padding: 0 30px;
+    position: relative;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+nav > ul > li:hover > a {
+    color: green;
+}
+
+/* 서브 메뉴 바 */
+.sub {
+    width: 1200px; 
+    height: auto;
+    background-color: #eee;
+    display: block;
+    float: right;
+    text-align: center;
+    z-index: 100;
+    display: none;
+    margin: 15px 0 0 0px;
+    border-radius: 20px;
+    font-family: "맑은 고딕";
+}
+
+.sub > li {
+    color: black;
+    float: left;
+    text-align: center;
+    width: 200px;
+    margin: 10px 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sub > li > ul {
+    float: left;
+    width: 200px;
+    text-align: center; 
+    margin-top: 15px;
+    border-top: 1px solid black;
+}
+
+.sub > li > ul > li {
+    margin: 10px 0px;
+    padding: 5px 0px;
+}
+
+.sub > li > ul > li > a {
+    background-color: #eee; 
+    text-transform: uppercase;
+    display: inline-block;
+    color: gray;
+    
+}
+
+.sub > li > ul > li > a {
+    display: block;
+    font-size: 15px;
+}
+
+.sub > li > ul > li > a:hover {
+    background-color: #000; 
+    color:#fff;
+}

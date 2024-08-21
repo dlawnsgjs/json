@@ -1,0 +1,40 @@
+[{
+    "url" : "./img/gory/1_24ss.jpg",
+    "title" : "24SS"
+},
+{
+    "url" : "./img/gory/2_short.jpg",
+    "title" : "반팔"
+},
+{
+    "url" : "./img/gory/3_shirt.jpg",
+    "title" : "셔츠"
+},
+{
+    "url" : "./img/gory/4_hoodie.jpg",
+    "title" : "후드"
+},
+{
+    "url" : "./img/gory/5_mtm.jpg",
+    "title" : "맨투맨"
+},
+{
+    "url" : "./img/gory/6_outer.jpg",
+    "title" : "아우터"
+},
+{
+    "url" : "./img/gory/7_pants.jpg",
+    "title" : "팬츠"
+},
+{
+    "url" : "./img/gory/8_set-up.jpg",
+    "title" : "셋업"
+},
+{
+    "url" : "./img/gory/9_2pack.jpg",
+    "title" : "패키지"
+},
+{
+    "url" : "./img/gory/10_zip-up.jpg",
+    "title" : "집업"
+}]
